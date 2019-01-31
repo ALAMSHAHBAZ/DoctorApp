@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DoctorApp</string>
+    <string name="title_activity_doctor">DoctorActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="string1">Page1</string>
+    <string name="string2">Page2</string>
+    <string name="string3">Page3</string>
+
+</resources>

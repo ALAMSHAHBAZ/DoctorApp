@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.doctorapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/docpad"
+        android:label="DocPad "
+        android:roundIcon="@drawable/docpad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DocLogin" />
+        <activity android:name=".ClerkLogin" />
+        <activity
+            android:name=".MyProfile"
+            android:label="YOUR PROFILE" />
+        <activity
+            android:name=".DoctorActivity"
+            android:label="@string/title_activity_doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".clerk.AddClerk" />
+        <activity android:name=".clerk.SearchClerk" />
+        <activity android:name=".clerk.EditClerk" />
+        <activity android:name=".clerk.ViewClerk" />
+        <activity android:name=".ClerkActivity" />
+        <activity android:name=".patient.AddPatient" />
+        <activity android:name=".patient.SearchPatient" />
+        <activity android:name=".patient.EditPatient" />
+        <activity
+            android:name=".patient.ViewPatient"
+            android:label="Appointments" />
+        <activity android:name=".clerk.DeleteClerk" />
+        <activity android:name=".patient.DeletePatient" />
+        <activity android:name=".viewpager.CustomPager" />
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".AboutUs"></activity>
+    </application>
+
+</manifest>

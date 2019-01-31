@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.doctorapp.ClerkActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backscreen">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:id="@+id/img"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:textColor="#a65eed"
+        android:textStyle="bold|italic"
+        android:id="@+id/txtname"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="ADD PATIENT"
+        android:onClick="add"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/a"
+        android:background="#94fcd9"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="SEARCH PATIENT"
+        android:layout_gravity="center"
+        android:onClick="search"
+        android:drawableLeft="@drawable/search"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"
+        />
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EDIT PATIENT"
+        android:onClick="edit"
+        android:drawableLeft="@drawable/edit1"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DELETE RECORD"
+        android:onClick="delete"
+        android:drawableLeft="@drawable/delete"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VIEW ALL"
+        android:onClick="view"
+        android:drawableLeft="@drawable/view"
+        android:background="#94fcd9"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

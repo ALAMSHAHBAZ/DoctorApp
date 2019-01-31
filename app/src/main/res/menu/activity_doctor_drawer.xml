@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/myprofile"
+            android:title="My profile" />
+
+        <item
+            android:id="@+id/appointment"
+            android:icon="@drawable/appointment"
+            android:title="My Appointments" />
+
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/out1"
+            android:title="Sign out"></item>
+        <item
+            android:id="@+id/abtus"
+            android:icon="@drawable/abtus"
+            android:title="ABOUT US" />
+
+    </group>
+
+
+
+</menu>
